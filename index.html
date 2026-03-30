@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Controls</h2>
+            <div class="control-group">
+                <label for="title">Page Title:</label>
+                <input type="text" id="title" placeholder="Enter page title">
+            </div>
+            <div class="control-group">
+                <label for="header">Header:</label>
+                <input type="text" id="header" placeholder="Enter header text">
+            </div>
+            <div class="control-group">
+                <label for="content">Content:</label>
+                <textarea id="content" placeholder="Enter your content here..."></textarea>
+            </div>
+            <button id="preview">Preview</button>
+        </aside>
+        <main class="preview-area">
+            <h1 id="preview-title"></h1>
+            <header id="preview-header"></header>
+            <section id="preview-content"></section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
